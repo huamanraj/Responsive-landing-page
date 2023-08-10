@@ -76,21 +76,42 @@ body {
 }
 
 .content {
-    height: calc(920px);
+    height: 500px;
     width: 100%;
-    background-color:rgb(8, 30, 30);  
+    
     display: flex;
+    position: relative;
+    
 }
 
 .right {
     height: 100%;
     width: 50%;
-    background-color: blueviolet;
+    
+    padding: 7vw 8vw;
 
 }
 
+.right h1 {
+    font-size: 4vw;
+}
+
+.right h1 span {
+    color: lightseagreen;
+}
+.right h1 p {
+    font-size: 1.6vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin top: 3vw;
+    margin bottom: 4vw;
+    
+}
 .left {
     height: 100%;
     width: 50%;
-    background-color: blue;
+    
+
+
 }
